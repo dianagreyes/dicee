@@ -33,6 +33,7 @@ class ViewController: UIViewController {
         
         diceImageViewOne.image = diceArray[Int.random(in: 0...5)]
         diceImageViewTwo.image = diceArray[Int.random(in: 0...5)]
+        
         //diceImageViewTwo.image = diceArray.randomElement()  //es lo mismo que -> [Int.random(in: 0...5)]
         
         /*leftDiceNumber += 1
